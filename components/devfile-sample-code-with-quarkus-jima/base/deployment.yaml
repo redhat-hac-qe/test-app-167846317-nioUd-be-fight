@@ -28,7 +28,7 @@ spec:
       - env:
         - name: secondEnvVar
           value: "3000"
-        image: quay.io/hacdev/build_service:nioUd-devfile-sample-code-with-quarkus-jima
+        image: quay.io/hacdev/build_service@sha256:5743462c1e03ce4bd700ff1ba8d6349108cff2c8b38a84451780704e53507e78
         name: my-java-quarkus
         ports:
         - containerPort: 8081
